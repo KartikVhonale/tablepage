@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(218, 233, 236);
+    width: auto;
+    height: auto;
+}
+*{
+    margin: 0;    
+    padding: 0;
+    outline: 0;
+}
+.nav2{
+    margin: 2% 0% 0% 5%;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    /* background: pink; */
+    text-align: center;
+    display: flex;
+}
+.left1{
+    display: flex;
+    text-decoration: none;
+}
+.text1{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.right{
+    /* background: blue; */
+    margin-left: auto;
+    display: inline-block;
+}
+.button1{
+    border-radius: 10px;
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+    padding: .6em 1.2em;
+    display: inline-block;
+    border-radius: 6em;
+    font-weight: 100;
+    transition: all .2s;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 172, 190);
+}
+.button1:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+.button2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+.button2{
+    border-radius: 10px;
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+    padding: .6em 1.2em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-weight: 100;
+    background-color: white;
+    color: black;
+}
+#homeimg{
+    width:35px;
+    height: 35px;
+}
+input[type="date"]{
+    padding: .18rem;
+    font-family: "Roboto Mono",monospace;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    width: 100%;
+   }
+.mainbox{
+    background:white;
+    border-radius: 8px;
+    width: 90%; 
+    margin: 1% 5%;
+    height: 75vh;
+    overflow: hidden;
+}
+   td , th{
+    text-align: center;
+   }
+   td{
+    padding: .52rem;
+   }
+   th{
+    padding: 15px 20px;
+    background-color: #dddddd;
+    color: #000000;
+    font-weight: 100;
+   }
+   .one{
+    background-color: white;
+    width: 100%;
+    border-bottom: solid .25px rgb(161, 161, 161);
+   }
+   .two{
+    background-color: white;
+    width: 100%;
+    border-top: solid .15px rgb(211, 211, 211);
+   }
+   tr:hover{
+    background-color: rgb(192, 192, 192);
+    box-shadow: 1px black;
+   }
+   /* tr:nth-child(even){
+    background-color: #f8f8f8;
+   } */
